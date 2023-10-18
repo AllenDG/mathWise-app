@@ -35,7 +35,7 @@ function Success() {
         style={{
           background: indxColor,
         }}
-        className={`text-5xl font-bold mx-auto p-5 rounded-full bg-red-500 md:text-6xl text-neutral-100`}
+        className={`text-5xl font-bold mx-auto p-5 rounded-full bg-pink-600 md:text-6xl text-neutral-100`}
       >
         {score}
       </h1>
@@ -55,7 +55,7 @@ function Success() {
 
       <button
         onClick={handleClick}
-        className="grid place-items-center text-neutral-50 bg-orange-500 rounded-full py-2 hover:text-neutral-50 text-sm font-semibold"
+        className="grid place-items-center text-neutral-50 bg-pink-600 rounded-full py-2 hover:text-neutral-50 text-sm font-semibold"
       >
         Back to dashboard
       </button>

@@ -4,38 +4,21 @@ export const Types = [
     name: "General Knowledge",
   },
   {
-    id: 10,
-    name: "Entertainment: Books",
-  },
-  {
-    id: 11,
-    name: "Entertainment: Film",
-  },
-  {
-    id: 12,
-    name: "Entertainment: Music",
-  },
-  {
-    id: 13,
-    name: "Entertainment: Musicals & Theatres",
-  },
-
-  {
     id: 15,
-    name: "Entertainment: Video Games",
+    name: "Addition and Subtraction: Mathematics",
   },
  
   {
     id: 17,
-    name: "Science & Nature",
+    name: "Multiplication and Division: Mathematics",
   },
   {
     id: 18,
-    name: "Science: Computers",
+    name: "Exponents: Mathematics",
   },
   {
     id: 19,
-    name: "Science: Mathematics",
+    name: "Parentheses: Mathematics",
   },
  
 ];
@@ -46,44 +29,125 @@ export const Question = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which company did Valve cooperate with in the creation of the Vive?",
-    correct_answer: "HTC",
-    incorrect_answers: ["Oculus", "Google", "Razer"],
+      "What does PEMDAS stand for?",
+    correct_answer: " Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+    incorrect_answers: ["Please Excuse My Dear Aunt Sally", " People Eat My Delicious Apple Slices", "Primary Education Makes Dreams A Reality"],
   },
-  {
-    category: "General Knowledge",
-    type: "multiple",
-    difficulty: "easy",
-    question: "How would one say goodbye in Spanish?",
-    correct_answer: "Adi&oacute;s",
-    incorrect_answers: [" Hola", "Au Revoir", "Salir"],
-  },
-  {
-    category: "General Knowledge",
-    type: "multiple",
-    difficulty: "easy",
-    question: "What was the first ever London Underground line to be built?",
-    correct_answer: "Metropolitan Line",
-    incorrect_answers: ["Circle Line", "Bakerloo Line", "Victoria Line"],
-  },
-  {
-    category: "General Knowledge",
-    type: "multiple",
-    difficulty: "easy",
-    question:
-      "Which of the following card games revolves around numbers and basic math?",
-    correct_answer: "Uno",
-    incorrect_answers: ["Go Fish", "Twister", "Munchkin"],
-  },
-  {
-    category: "General Knowledge",
-    type: "multiple",
-    difficulty: "easy",
-    question:
-      "What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?",
-    correct_answer: "Swiss Air",
-    incorrect_answers: ["Air France", "British Airways", "TWA"],
-  },
+  [
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "easy",
+      question: "What does PEMDAS stand for?",
+      correct_answer: "B. Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+      incorrect_answers: [
+        "A. Please Excuse My Dear Aunt Sally",
+        "C. People Eat My Delicious Apple Slices",
+        "D. Primary Education Makes Dreams A Reality"
+      ]
+    },
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "medium",
+      question: "Which operation should be performed first in PEMDAS?",
+      correct_answer: "D. Parentheses",
+      incorrect_answers: [
+        "A. Multiplication",
+        "B. Subtraction",
+        "C. Addition"
+      ]
+    },
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "medium",
+      question: "In the expression 4 + 3 x 2, what operation should be done first?",
+      correct_answer: "A. Addition",
+      incorrect_answers: [
+        "B. Multiplication",
+        "C. Subtraction",
+        "D. Division"
+      ]
+    },
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "medium",
+      question: "What is the result of 7 + 2 × (4 ÷ 2) in PEMDAS?",
+      correct_answer: "C. 11",
+      incorrect_answers: [
+        "A. 7",
+        "B. 9",
+        "D. 13"
+      ]
+    },
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "hard",
+      question: "Solve: 8 ÷ 2 + 3.",
+      correct_answer: "C. 11",
+      incorrect_answers: [
+        "A. 7",
+        "B. 2",
+        "D. 4"
+      ]
+    },
+    {
+      category: "General Knowledge",
+      type: "true-false",
+      difficulty: "easy",
+      question: "The Earth is flat.",
+      correct_answer: "false",
+      incorrect_answers: ["true"]
+    },
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "hard",
+      question: "Calculate: (5 × 3) - (4 + 2).",
+      correct_answer: "B. 14",
+      incorrect_answers: [
+        "A. 19",
+        "C. 15",
+        "D. 6"
+      ]
+    },
+    {
+      category: "General Knowledge",
+      type: "true-false",
+      difficulty: "easy",
+      question: "The sum of 6 and 3 is 10.",
+      correct_answer: "false",
+      incorrect_answers: ["true"]
+    },
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "medium",
+      question: "Which symbol represents the exponentiation operation in PEMDAS?",
+      correct_answer: "C. ^",
+      incorrect_answers: [
+        "A. ×",
+        "B. +",
+        "D. ÷"
+      ]
+    },
+    {
+      category: "General Knowledge",
+      type: "multiple-choice",
+      difficulty: "easy",
+      question: "In the expression 2 + 6 ÷ 3, which operation should be done first?",
+      correct_answer: "B. Division",
+      incorrect_answers: [
+        "A. Addition",
+        "C. Subtraction",
+        "D. Parentheses"
+      ]
+    }
+  ]
+  
 ];
 
 export const Level = ["easy", "medium", "hard"];

@@ -7,12 +7,13 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAVOpKDN7TI3ObFQiapYrVVpLd_9vMAmlA",
-  authDomain: "react-quiz-32a90.firebaseapp.com",
-  projectId: "react-quiz-32a90",
-  storageBucket: "react-quiz-32a90.appspot.com",
-  messagingSenderId: "636448735297",
-  appId: "1:636448735297:web:7ec2fa58a446bc3d48c6c0",
+  apiKey: "AIzaSyDHr8ULN4C_tJa5xDuCQFxz7I2_D4TVIG4",
+  authDomain: "tester-8385f.firebaseapp.com",
+  databaseURL: "https://tester-8385f-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tester-8385f",
+  storageBucket: "tester-8385f.appspot.com",
+  messagingSenderId: "51609170690",
+  appId: "1:51609170690:web:3012a33de207182954c81b"
 };
 // const firebaseConfig = {
 //   apiKey: import.meta.env.VITE_apiKey,
